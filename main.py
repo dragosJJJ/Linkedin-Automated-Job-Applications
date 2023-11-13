@@ -6,7 +6,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-#This app can be tweaked to automatically send job applications.. BUT FOR NOW IT SAVES THE JOB APPLICATIONS POSTINGS AND IT FOLLOWS THE COMPANIES
+#THIS APP CAN BE TWEAKED TO SEND JOB APPLICATIONS.. BUT FOR NOW IT SAVES THE JOB APPLICATIONS POSTINGS AND IT FOLLOWS THE COMPANIES
 
 URL = "https://www.linkedin.com/jobs/search/?currentJobId=3746510231&f_AL=true&geoId=106670623&keywords=Python%20Developer&location=Rom%C3%A2nia&origin=JOB_SEARCH_PAGE_KEYWORD_AUTOCOMPLETE&refresh=true&sortBy=R"
 EMAIL = os.environ["mail"]
